@@ -43,3 +43,7 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+# A package should not commit its lock file (the example app keeps its own).
+/pubspec.lock
+/example/build/
